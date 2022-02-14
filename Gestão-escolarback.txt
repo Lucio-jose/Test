@@ -1,0 +1,62 @@
+﻿Vamos com generate:
+1 - criar a modl
+2 - yarn migration:generate -n nomedamigration
+3 - yarn migration:run
+
+-------------------------------------------------------
+
+
+
+
+nomes das tabelas, branch e migrations e das variáveis:
+primeira letra deve ser minúscula tudo no singular
+
+LUICIO JOSÉ:
+nationality (name)
+typeUser (name)
+bank (name)
+month (name)
+typeSchool (name)
+
+LUÍS MENDES:
+address (name)
+academicYear (name, startDate, endDate)
+identificationDocument (name)
+typeRegistration (name)
+period (name, startDate, endDate)
+
+ANTÓNI MACHADO:
+paymentMethod(name)
+typeContact(name)
+schooling(name, designation)
+typeFile(name)
+file (name, path,m idTypeFile)
+
+OBS: palavras formadas por duas palvras a segunda deve iniciar com a letra maíuscula.
+
+No index.ts dos controller deve ter ander-line.
+----------------------------------
+Nomes das models
+Primeira letra deve ser maíuscula, tudo no singular.
+ex:
+PaymentMethod
+------------------------------------
+Nomes dos Controller
+também, tudo no singular.
+-----------------------------------
+Nomes dos Repository
+Também, tudo no singular.
+----------------------------------
+
+Os parametros das rotas :
+index - listar
+store - create
+delete - eliminar
+update - alterar.
+
+Asmensagens devem ser em inglês.
+
+----------------------------------------------------------
+Dependencias a instalar:
+multer, typemulter
+yup, typeyup
